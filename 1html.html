@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>home about</nav>
+    </header>
+    <main>
+        <section>a page section</section>
+        <article>a self contaned contetnt</article>
+        <aside>content aside from content for ads or for some other purpose</aside>
+        <section>
+            <div>
+                <p>div is container for elements</p>
+                <h2></h2>
+                <p>block ele takess entire width </p>
+                <span>inline element takes space which is enough for content</span>
+            </div>
+        </section>
+        <section>
+            <ul type="circle">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+            <ol type="i">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ol>
+        </section>
+        <section>
+            <table>
+                <caption>Max Scores by different players in FauG</caption>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <!-- <th>Player Name</th> -->
+                        <th colspan="3">Max Score</th>
+                        <!-- <th>Game</th> -->
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Sachin</td>
+                        <td>123</td>
+                        <td>FauG</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>Rahul</td>
+                        <td>123</td>
+                        <td>FauG</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Virat</td>
+                        <td>543</td>
+                        <td>FauG</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Shardul</td>
+                        <td>34</td>
+                        <td>FauG</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+
+            <h1>Travel Form for our trip</h1>
+            <form action="form.php">
+                <input type="text" name="name" placeholder="Enter Your Name"><br>
+                <label for="sectionida">
+                    <input type="radio" value="Section a" name="section" id="sectionida"> Section A
+                </label>
+                <label for="sectionidb">
+                    <input type="radio" value="Section b" name="section" id="sectionidb"> Section B
+                </label>
+                <label for="sectionidc">
+                    <input type="radio" value="Section c" name="section" id="sectionidc" class="red blue"> Section C
+                </label><br>
+                <input type="checkbox" id="foodcanteen" class="red" name="canteen">
+                <label for="foodcanteen">Want Food Canteen card</label><br>
+                <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+                <textarea name="explain" id="explain" cols="30" rows="10"
+                    placeholder="Explain why you want to join "></textarea>
+                <select name="car" id="car">
+
+                    <option value="no-car">Select your car</option>
+                    <option value="onmi">Omni</option>
+                    <option value="omni2">Omni2</option>
+                    <option value="dzire">Dzire</option>
+                    <option value="i10">i10</option>
+                    <option value="i20">i20</option>
+                </select>
+                <button type="submit">submit</button>
+            </form>
+        </section>
+        <section>
+            <div>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/9-GSIN8s5Eo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br> -->
+                <!-- <iframe src="https://www.google.com" frameborder="0" width="892px"></iframe> -->
+
+                <video src="vid.mp4" controls autoplay loop width="523px"></video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>this is footer</p>
+    </footer>
+</body>
+
+</html>
+
+
+<!-- Block Elements -->
+<!-- 
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure>
+    <footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table>
+        <tfoot><ul><video></video> -->
+
+<!-- Inline Elements -->
+<!-- <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map>
+    <object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var> -->
